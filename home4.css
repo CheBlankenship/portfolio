@@ -1,0 +1,281 @@
+/* Index.html */
+html, body, .container-fluid {
+  height: 100%;
+  margin: 0;
+}
+
+.container-fluid {
+  background: url("img-file/white-wall-cust.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a{
+  color: black;
+  height: 100px;
+}
+
+a:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+a:visited{
+  color: black;
+}
+
+
+/* Menu bar */
+.menu{
+  text-align: center;
+  opacity: 0.5;
+  font-size: 35px;
+  font-family: 'Goudy Bookletter 1911', serif;
+  color: white;
+  margin-top: 2rem;
+}
+
+.about{
+  color: black;
+  padding: 0;
+}
+.project{
+  color: black;
+  padding: 0;
+}
+.skills{
+  color: black;
+  padding: 0;
+}
+.contact{
+  color: black;
+  padding: 0;
+}
+
+.concat{
+  padding: 0;
+}
+
+.naka {
+  padding: 0.2rem;
+}
+
+
+
+
+
+
+
+.name{
+  margin: 0 0 3rem 0;
+  text-align: center;
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 100px;
+}
+
+
+
+
+
+
+
+
+.contact-bar a{
+  color: black;
+  padding: 2rem;
+}
+
+.col-xs-12 {
+  font-size: 30px;
+}
+
+.contact-bar{
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+.skill-lists{
+  /*height: 184px;*/
+  text-align: center;
+  /*margin-top: auto;*/
+}
+
+.js{
+  height: 80px;
+}
+
+
+.html-img{
+  height: 70px;
+  width: 70px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 80px;
+}
+
+
+.py-img{
+  height: 70px;
+  width: 70px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 80px;
+}
+
+.js-img{
+  height: 70px;
+  width: 70px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 80px;
+}
+
+.jq-img{
+  height: 70px;
+  width: 70px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 80px;
+}
+
+.css-img{
+  height: 73px;
+  width: 75px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 80px;
+}
+
+
+.projects-list{
+  text-align: center;
+}
+
+
+/*.pro-box{
+    border-radius: 20px;
+}*/
+
+.content{
+  font-size: 50px;
+}
+
+.about-list{
+  font-family: 'Goudy Bookletter 1911', serif;
+}
+
+/*.title{
+  border: 1px solid black;
+  background-color: rgba(255, 0, 0, 0.3);
+  height: 100px;
+}*/
+
+
+
+.col-md-6.col-xs-12.naiyou{
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  margin: 0;
+}
+
+.dc-logo{
+  height: 40px;
+  width: 70px;
+}
+
+.kk-logo{
+  height: 40px;
+  width: 40px;
+}
+
+.sentence{
+  font-size: 25px;
+}
+
+.nerd{
+  height: 140px;
+}
+
+.main-contacts{
+  text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 450px) {
+  .concat{
+    font-size: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 550px) {
+  .concat{
+    font-size: 25px;
+  }
+  div.row.contact-bar{
+    font-size: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  .name{
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .name{
+    font-size: 70px;
+  }
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .title{
+    text-align: center;
+    font-size: 30px;
+  }
+  p.sentence{
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+}
+
+
+
+/**************************/
+
+/* Skills.html */
+
+
+
+
+
+
+/***************************/
+
+/* Project.html */
+
+
+
+
+
+/****************************/
+
+/* Contact.html */
+
+
+
+
+
+
+/****************************/
