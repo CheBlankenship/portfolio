@@ -64,24 +64,12 @@ a:visited{
   padding: 0.2rem;
 }
 
-
-
-
-
-
-
 .name{
   margin: 0 0 3rem 0;
   text-align: center;
   font-family: 'Goudy Bookletter 1911', serif;
   font-size: 100px;
 }
-
-
-
-
-
-
 
 
 .contact-bar a{
@@ -111,7 +99,7 @@ a:visited{
 }
 
 
-.html-img{
+.sk-img{
   height: 70px;
   width: 70px;
   background-color: rgba(255, 255, 255, 0.5);
@@ -119,7 +107,7 @@ a:visited{
 }
 
 
-.py-img{
+/*.py-img{
   height: 70px;
   width: 70px;
   background-color: rgba(255, 255, 255, 0.5);
@@ -138,7 +126,7 @@ a:visited{
   width: 70px;
   background-color: rgba(255, 255, 255, 0.5);
   font-size: 80px;
-}
+}*/
 
 .css-img{
   height: 73px;
@@ -159,6 +147,8 @@ a:visited{
 
 .content{
   font-size: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .about-list{
@@ -211,31 +201,10 @@ a:visited{
   .concat{
     font-size: 20px;
   }
-}
-
-
-@media only screen and (max-width: 550px) {
-  .concat{
-    font-size: 25px;
-  }
-  div.row.contact-bar{
+  .name{
     font-size: 30px;
   }
 }
-
-
-@media only screen and (max-width: 700px) {
-  .name{
-    font-size: 50px;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .name{
-    font-size: 70px;
-  }
-}
-
 
 @media only screen and (max-width: 1100px) {
   .title{
@@ -246,9 +215,54 @@ a:visited{
     font-size: 20px;
     text-align: center;
   }
-
-
+  div .content{
+    font-size: 35px;
+  }
+  .nerd{
+    height: 80px;
+  }
 }
+
+@media only screen and (max-width: 800px) {
+  .name{
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .name{
+    font-size: 50px;
+  }
+  .sk-img{
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+  }
+  .css-img{
+    height: 55px;
+    width: 55px;
+    font-size: 50px;
+  }
+  div .content{
+    font-size: 25px;
+  }
+  .nerd{
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .concat{
+    font-size: 25px;
+  }
+  div.row.contact-bar{
+    font-size: 30px;
+  }
+  .nerd{
+    height: 40px;
+  }
+}
+
 
 
 
