@@ -29,6 +29,11 @@ a:visited{
   color: black;
 }
 
+.btn:focus < a{
+  outline:0;
+  border: 0;
+}
+
 
 /* Menu bar */
 .menu{
@@ -188,6 +193,10 @@ a:visited{
   font-size: 25px;
 }
 
+
+.nerdy{
+  background-color: rgba(255,255,255,0.4);
+}
 .nerd{
   height: 140px;
 }
@@ -253,6 +262,29 @@ button.btn-6c:hover {
 	background: transparent;
 	color: black;
 }
+
+/*---------------------*/
+
+.make{
+  background-color: #79ad75;
+}
+
+.white{
+  color: white;
+}
+
+.in{
+  display: inline-block;
+}
+
+.he{
+  margin-left: 50px:
+  margin-top: 40px;
+  font-size: 100px;
+  float: left;
+  margin: 0;
+}
+/*---------------------*/
 
 
 @media only screen and (max-width: 1100px) {
